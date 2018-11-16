@@ -103,7 +103,7 @@ public class Maze {
                 System.out.print("(" + coordinate.getX() + ":" +coordinate.getY() + " (" + "s"+ ")" +")" + ",");
             }
             else if(isExit(coordinate.getX(), coordinate.getY())) {
-                System.out.print("(" + coordinate.getX() + ":" +coordinate.getY() + " (" + "E"+ ")" +")");
+                System.out.print("(" + coordinate.getX() + ":" +coordinate.getY() + " (" + "E"+ ")" +")" + "\n");
             }
             else{
                 System.out.print("(" + coordinate.getX() + ":" + coordinate.getY() + ")" + ",");

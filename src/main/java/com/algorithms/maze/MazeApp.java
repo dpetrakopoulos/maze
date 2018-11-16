@@ -11,7 +11,7 @@ public class MazeApp {
 
     private static void execute(File file) throws Exception {
         Maze maze = new Maze(file);
-     //   dfs(maze);
+        dfs(maze);
         bfs(maze);
     }
 
